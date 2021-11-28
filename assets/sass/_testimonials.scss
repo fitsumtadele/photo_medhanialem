@@ -1,0 +1,46 @@
+.testimonials {
+    padding: 0 8rem;
+    margin-bottom: 8rem;
+    .glider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+        &-track {
+            width: 100%;
+        }
+
+        &-item {
+            margin: 4rem 3rem;
+            padding: 5rem 3rem 2rem 3rem;
+            background-color: $color-light-gray;
+            text-align: center;
+            position: relative;
+            border-radius: 1rem;
+
+            & > *:not(:last-child) {
+                margin-bottom: 2rem;
+                
+            }
+        }
+
+        &-text {
+            font-size: 1.5rem;
+        }
+
+        &-image {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            position: absolute;
+            top: -0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &-name {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+    }
+}

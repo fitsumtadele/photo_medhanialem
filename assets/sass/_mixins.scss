@@ -1,0 +1,20 @@
+@mixin abscenter 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+
+@mixin flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexbetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

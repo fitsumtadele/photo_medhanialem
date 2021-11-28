@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body
+{
+    font-family: $copy-font;
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+} 
+a{
+    text-decoration: none;
+    color: #000;
+}
+li
+{
+    list-style: none;
+}
+section
+{
+    padding: 0rem 3rem;
+
+    
+}
+.titles
+{
+    text-align: center;
+    margin-bottom: 4rem;
+
+    .line
+    {
+        border-bottom: 2px solid $color-primary;
+        width: 6rem;
+        height: 1rem;
+        text-align: center;
+        opacity: .6;
+    }
+   
+    .section-title
+    {
+        font-family: $title-font;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        font-size: 3.5rem;
+    }
+    .subtitle
+    {
+        font-size: 2rem;
+        margin-bottom: 1.4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

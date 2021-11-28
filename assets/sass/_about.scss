@@ -1,0 +1,15 @@
+.about
+{
+    margin-bottom: 8rem;
+    &-img
+    {
+        display: none;
+    }
+
+    &-desc
+    {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+    }
+}

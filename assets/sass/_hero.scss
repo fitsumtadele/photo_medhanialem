@@ -1,0 +1,32 @@
+.hero
+{
+    margin-bottom: 6rem;
+
+
+    .col-1
+    {
+        background: url('../img/Mob-hero.jpg');
+        background-size: cover;
+        background-position: top;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .col-2
+    {
+        padding: 4rem 0;
+    }
+
+    .heading-primary
+    {
+        font-family: $title-font;
+        text-transform: uppercase;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .sub-title
+    {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+}

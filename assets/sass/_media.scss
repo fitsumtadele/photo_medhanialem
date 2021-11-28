@@ -1,0 +1,148 @@
+@media screen and (min-width: 800px)
+{
+
+   .footer-container
+   {
+       flex-direction: row;
+       padding: 3rem 8rem;
+   }
+
+    .hero 
+    {
+        padding: 0;
+    }
+    .hero-container
+    {
+        display: flex;
+        padding: 0;
+        margin-top: -9rem;
+        justify-content: center;
+        flex-direction: row-reverse;
+        height: 115vh;
+        position: relative;
+        z-index: 0;
+
+        .col-1 {
+            background: url("../img/Desktop-hero.jpg");
+            background-size: cover;
+            background-position: 50% 10%;
+            height: 115vh;
+            width: 75%;
+        }
+    
+        .col-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: $color-light-gray;
+            padding: 0 5% 0 5.8%;
+            width: 70%;
+            margin-top: 9rem;
+           
+
+
+            .heading-primary
+            {
+                font-size: 5rem;
+            }
+            .sub-title
+            {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+        padding: 2rem 8rem;
+
+        .logo
+        {
+            width: 17rem;
+        }
+
+        
+        .nav
+        {
+            visibility: visible;
+            opacity: 1;
+            left: 0;
+            padding-right: 0rem;
+
+            &-lists
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 1.6rem;
+                
+                .nav-item:not(:last-child)
+                {
+                    margin-right: 4rem;
+                }
+            }
+        }
+
+        #exit,.bars
+        {
+            display: none;
+        }
+    }
+.button-container
+{
+    position: relative;
+    z-index: 20000;
+    .btn
+    {
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+        margin-right: 3rem;
+        
+    }
+}
+
+.section-title
+{
+    font-size: 4.5rem !important;
+    margin-top: 10rem;
+}
+.line
+{
+    margin-bottom: 8rem !important;
+}
+   
+
+
+}
+@media screen and (min-width:1000px)
+{
+    .about
+    {
+    
+        .content
+        {
+            display: flex;
+            justify-content: space-between;
+           
+           
+            .col-2
+            {
+                margin-left: 4rem;
+    
+                .about-desc
+                {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        &-img
+        {
+            display: block;
+        }
+    }
+}

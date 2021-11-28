@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="373" height="22" viewBox="0 0 373 22">
+  <g id="Group_22" data-name="Group 22" transform="translate(-21 -15)">
+    <g id="Logo" transform="translate(-189 -25)">
+      <text id="DannyStudio" transform="translate(234.975 58)" fill="#a318d4" font-size="19" font-family="Raleway"><tspan x="0" y="0" fill="#000">Danny</tspan><tspan y="0" fill="#a318d4" font-family="Raleway-Bold, Raleway" font-weight="700">Studio</tspan></text>
+      <path id="camera" d="M18.712,36.093V46.619a1.755,1.755,0,0,1-1.754,1.754H1.754A1.755,1.755,0,0,1,0,46.619V36.093a1.755,1.755,0,0,1,1.754-1.754H4.97l.45-1.2A1.752,1.752,0,0,1,7.061,32h4.587a1.752,1.752,0,0,1,1.641,1.137l.453,1.2h3.216A1.755,1.755,0,0,1,18.712,36.093Zm-4.97,5.263a4.386,4.386,0,1,0-4.386,4.386A4.389,4.389,0,0,0,13.742,41.356Zm-1.169,0A3.216,3.216,0,1,1,9.356,38.14,3.221,3.221,0,0,1,12.572,41.356Z" transform="translate(210 11.395)"/>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(6 -3.5)">
+      <line id="Line_1" data-name="Line 1" x2="21" transform="translate(365.5 22.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_1-2" data-name="Line 1" x2="21" transform="translate(365.5 29.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_1-3" data-name="Line 1" x2="21" transform="translate(365.5 36.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

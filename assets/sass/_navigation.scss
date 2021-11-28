@@ -1,0 +1,58 @@
+.header {
+    @include flexbetween;
+    padding: 1rem 3rem;
+
+
+    &.light
+    {
+        background-color: #fff;
+        transition: background-color .5s ease;
+        z-index: 10000;
+        box-shadow: 0 0rem 3rem rgba(0,0,0,.1);
+    }
+
+    .nav {
+        visibility: hidden;
+        left: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease-in, left 0.5s ease-in;
+    }
+    &.mobile {
+        padding: 3rem 3rem;
+        .nav {
+            visibility: visible;
+            opacity: 1;
+            background-color: $color-light-gray;
+            padding: 4rem 4rem;
+            font-size: 1.6rem;
+            position: absolute;
+            top: 0;
+            left: 35%;
+            width: 65vw;
+            height: 40vh;
+            z-index: 1000;
+
+            #exit {
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+                cursor: pointer;
+                font-size: 3rem;
+                z-index: 1000;
+                padding: 0.5rem;
+            }
+
+            &-lists {
+                > *:not(:last-child) {
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .bars {
+        fill: #000;
+        width: 2rem;
+        cursor: pointer;
+    }
+}
