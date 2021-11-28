@@ -10,7 +10,13 @@
         z-index: 10000;
         box-shadow: 0 0rem 3rem rgba(0,0,0,.1);
     }
-
+    @media only screen and (min-width: 800px){
+        .logo-container
+            {
+                display: none;
+            }
+    }
+    
     .nav {
         visibility: hidden;
         left: 100%;

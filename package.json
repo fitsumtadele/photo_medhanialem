@@ -1,0 +1,22 @@
+{
+  "name": "danny-photohraphy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyujunior/Danny-photography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyujunior/Danny-photography/issues"
+  },
+  "homepage": "https://eyujunior.github.io/Danny-photography",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
